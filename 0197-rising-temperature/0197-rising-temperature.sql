@@ -6,4 +6,3 @@ FROM
         JOIN
     Weather w ON DATEDIFF(Weather.recordDate, w.recordDate) = 1
         AND Weather.temperature > w.temperature
-;
